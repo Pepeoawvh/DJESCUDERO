@@ -1,0 +1,110 @@
+
+/* MODO DARK */
+
+body {
+    background-color: rgb(20, 20, 20);
+    color: rgb(241, 241, 241);
+    background-image: url(./public/assets/img/backgrounds/BGBLUE1.jpg);
+    background-position: -16cm -10.5cm;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr;
+    border-bottom: solid rgb(3, 226, 255) 1px;
+    padding-bottom: 10px;
+
+}
+
+.navbarup {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.navbarsociales {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: right;
+    align-items: center;
+    justify-content: right;
+    padding-right: 30px;
+}
+
+.logosocial {
+    height: 25px;
+}
+
+.nombretitle {
+    font-family: 'Saira', sans-serif;
+    font-family: 'Audiowide', sans-serif;
+    justify-self: left;
+    font-size: 40px;
+    padding-left: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.navbardown {
+    display: grid;
+}
+
+.navitems {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-self: left;
+    justify-items: center;
+    padding-left: 50px;
+    padding-top: 10px;
+    font-family: 'Audiowide', sans-serif;
+    text-shadow: 1px 2px 1px rgba(42, 42, 42, 0.572);
+
+
+}
+
+.navitemsesion {
+    justify-self: right;
+}
+
+.navitemcontacto {
+    justify-self: left;
+}
+
+.shortcuts {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 400px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.shortcut {
+    display: grid;
+    border: solid 1.5px;
+    border-radius: 3px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px rgba(30, 30, 30, 0.572);
+    justify-self: center;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    height: 80px;
+    width: 250px;
+}
+.shortcutext {
+    text-align: center;
+}
+.banner2{
+    display: grid;
+    background-color: #00000076;
+    height: 380px;
+}
+/* __________________________________________________________    */
+/* MEDIA QUERY PARA CELULAR */
+@media screen and (max-width:800px) {}
