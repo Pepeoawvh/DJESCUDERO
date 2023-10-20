@@ -107,4 +107,33 @@ body {
 }
 /* __________________________________________________________    */
 /* MEDIA QUERY PARA CELULAR */
-@media screen and (max-width:800px) {}
+@media screen and (max-width:800px) {
+    .nombretitle{
+        padding-left: 30px;
+    }
+    .navbar{
+        padding-bottom: 0px;
+    }
+    .navbarup{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .navbarsociales {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: right;
+        align-items: center;
+        justify-content: right;
+        padding-right: 0px;
+    }
+.logosocial{
+    margin-right: 18px;
+}
+.navitems{
+justify-items: left;
+padding-left: 25px;
+}
+.shortcuts{
+    height: 300px;
+}
+}
