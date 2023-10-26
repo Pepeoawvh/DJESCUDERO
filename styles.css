@@ -5,14 +5,15 @@ body {
     background-color: rgb(20, 20, 20);
     color: rgb(241, 241, 241);
     background-image: url(./public/assets/img/backgrounds/BGBLUE1.jpg);
-    background-position: -16cm -10.5cm;
+    background-position: -10cm -5cm;
     background-repeat: no-repeat;
+    background-size: 130%;
 }
 
 .navbar {
     display: grid;
     grid-template-rows: 0.5fr 0.5fr;
-    border-bottom: solid rgb(3, 226, 255) 1px;
+    border-bottom: solid rgba(3, 226, 255, 0.391) 2px;
     padding-bottom: 10px;
 
 }
@@ -20,7 +21,7 @@ body {
 .navbarup {
     display: grid;
     grid-template-columns: 1fr 0.5fr 0.5fr;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -34,14 +35,17 @@ body {
 }
 
 .logosocial {
-    height: 25px;
+    height: 20px;
+
 }
 
 .nombretitle {
     font-family: 'Saira', sans-serif;
     font-family: 'Audiowide', sans-serif;
     justify-self: left;
-    font-size: 40px;
+    font-size: 35px;
+    text-shadow: 1px 2px 1px rgba(42, 42, 42, 0.326);
+
     padding-left: 50px;
     color: rgb(255, 255, 255);
 }
@@ -59,8 +63,8 @@ body {
     padding-left: 50px;
     padding-top: 10px;
     font-family: 'Audiowide', sans-serif;
-    text-shadow: 1px 2px 1px rgba(42, 42, 42, 0.572);
-
+    font-size: 15px;
+    text-shadow: 1px 2px 1px rgba(42, 42, 42, 0.206);
 
 }
 
@@ -74,18 +78,19 @@ body {
 
 .shortcuts {
     display: grid;
+    grid-gap: 20px;
     grid-template-rows: 1fr 1fr 1fr;
     height: 400px;
     padding-right: 100px;
     padding-left: 100px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     align-items: center;
 }
 
 .shortcut {
     display: grid;
-    border: solid 1.5px;
+    border: solid 1.5px rgba(255, 255, 255, 0.631);
     border-radius: 3px;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 30px;
@@ -95,7 +100,7 @@ body {
     justify-items: center;
     align-items: center;
     height: 80px;
-    width: 250px;
+    width: 270px;
 }
 .shortcutext {
     text-align: center;
@@ -103,13 +108,21 @@ body {
 .banner2{
     display: grid;
     background-color: #00000076;
-    height: 380px;
+    height: 300px;
 }
 /* __________________________________________________________    */
 /* MEDIA QUERY PARA CELULAR */
-@media screen and (max-width:800px) {
+@media screen and (max-width:600px) {
+    body {
+    background-color: rgb(20, 20, 20);
+    color: rgb(241, 241, 241);
+    background-image: url(./public/assets/img/backgrounds/BGBLUE1.jpg);
+    background-position: -3cm -2cm;
+    background-repeat: no-repeat;
+    background-size: 300%;
+}
     .nombretitle{
-        padding-left: 30px;
+        padding-left: 20px;
     }
     .navbar{
         padding-bottom: 0px;
@@ -127,13 +140,15 @@ body {
         padding-right: 0px;
     }
 .logosocial{
-    margin-right: 18px;
+    margin-right: 17px;
 }
 .navitems{
 justify-items: left;
-padding-left: 25px;
+/* padding-left: 15px; */
+font-size: 12px;
 }
 .shortcuts{
     height: 300px;
+    padding: 0px;
 }
 }
